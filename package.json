@@ -1,0 +1,15 @@
+{
+  "name": "TesteSkyOne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+    "test": "cypress run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
